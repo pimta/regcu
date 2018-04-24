@@ -1,0 +1,130 @@
+ @import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+      @import url('https://fonts.googleapis.com/css?family=Quando');
+      @import url('https://fonts.googleapis.com/css?family=Kanit');
+
+      body {
+         /*background-image: url("http://www.baltana.com/files/wallpapers-4/Watercolor-Background-Wallpaper-HD-14640.jpg");*/
+          background-color : #314f4b;
+         background-size: 100%;
+       }
+
+      h1 {
+         font-family: 'Permanent Marker', cursive;
+         text-align: center;
+         font-size: 50px;
+      }
+
+      h2 {
+         font-family: 'Quando', serif;
+         text-align: center;
+         font-size: 20px;
+      }
+.option-input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  position: relative;
+  top: 13.33333px;
+  width: 40px;
+  height: 40px;
+  -webkit-transition: all 0.15s ease-out 0;
+  -moz-transition: all 0.15s ease-out 0;
+  transition: all 0.15s ease-out 0;
+  background: #cbd1d8;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  outline: none;
+  position: relative;
+  margin-right: 0.5rem;
+  z-index: 1000;
+}
+
+.option-input:hover { background: #9faab7; }
+
+.option-input:checked { background: #40e0d0; }
+
+.option-input:checked::before {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  content: '\2716';
+  display: inline-block;
+  font-size: 26.66667px;
+  text-align: center;
+  line-height: 40px;
+}
+
+.option-input:checked::after {
+  -webkit-animation: click-wave 0.65s;
+  -moz-animation: click-wave 0.65s;
+  animation: click-wave 0.65s;
+  background: #40e0d0;
+  content: '';
+  display: block;
+  position: relative;
+  z-index: 100;
+}
+
+.option-input.radio { border-radius: 50%; }
+
+.option-input.radio::after { border-radius: 50%; }
+
+form {
+  position: absolute;
+  left: 40%;
+}
+
+.submit {
+  position: absolute;
+  left: 35%;
+}
+label {
+  font-family: 'Kanit', sans-serif;
+  font-size: 18px;
+}
+
+
+
+.button {
+    background: #428BCA;
+    color: #fff;
+    font-family: Sans-serif;
+    font-size: 20px;
+    height: 60px;
+    width: 150px;
+    line-height: 60px;
+    margin: 25px 25px;
+    text-align: center;
+    border: 0;
+    transition: all 0.3s ease 0s;
+}
+
+.button:hover {
+  background: #3071A9
+}
+
+.back {
+    background-color: #d3eae7;
+    border: none;
+    color: #314f4b;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+
+body {
+         background-image: url("http://www.baltana.com/files/wallpapers-4/Watercolor-Background-Wallpaper-HD-14640.jpg");
+         background-size: auto;
+       }
+

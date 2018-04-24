@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Karla');
+    .accordion {
+      background-color: #ffb3da;
+      color: #444;
+      cursor: pointer;
+      padding: 18px;
+      width: 200px;
+      text-align: left;
+      border: none;
+      outline: none;
+      transition: 0.4s;
+
+    }
+
+    /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+    .active, .accordion:hover {
+        background-color: #ffcce6;
+    }
+
+    .accordion:after {
+        content: "\25B7" ; /* Unicode character for "plus" sign (+) */
+        font-size: 13px;
+        color: #000;
+        float: left;
+        margin-right: 5px;
+    }
+
+    .active:after {
+        content: "\25BD"; /* Unicode character for "minus" sign (-) */
+    }
+
+    /* Style the accordion panel. Note: hidden by default */
+    .panel {
+        /*padding: 0 18px;*/
+        background-color: #f2f2f2;
+        display: none;
+        overflow: hidden;
+        width: 200px;
+    }
+    .asdf{
+      width: 200px;
+      font-family: 'Karla', sans-serif;
+    }
+    .inacc{
+      background-color: #eee;
+      color: #444;
+      cursor: pointer;
+      padding: 18px;
+      width: 100%;
+      text-align: left;
+      border: none;
+      outline: none;
+      font-size: 15px;
+      font-family: 'Karla', sans-serif;
+      
+
+    }

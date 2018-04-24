@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Pridi');
+
+.form{
+	margin: 0 auto;
+	width:600px; 
+	border: solid 1px #3d4b4c;
+	background-color: #bed1d3;
+	font-size : 20px;
+	font-family: 'Pridi',serif;
+	position: relative;
+}
+.formtitle{
+	background-color:#3d4b4c;
+	color:#FFFFFF; 
+	padding:3px;"
+	font-size: 30px;
+}
+.submitbutton{
+	width : 100px;
+	height: 40px;
+	background-color : #3d4b4c;
+	color: white;
+	border-width: 0px;
+	border-radius: 5px;
+}
+table{
+      table-layout: fixed;
+      position: relative;
+      top: 20%;
+}
+
+td{
+      word-wrap: break-word;
+
+}
